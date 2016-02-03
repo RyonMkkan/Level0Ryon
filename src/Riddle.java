@@ -19,7 +19,13 @@ score=score + 1;
 		// 5. Otherwise, say "wrong" and tell them the answer
 
 		// 6. Add some more riddles
-
+String answer1 = JOptionPane.showInputDialog("Whats 9+10?");
+if (answer.equals("21")) {
+	JOptionPane.showInputDialog(null,"correct");
+	score=score+1;
+}else {
+	JOptionPane.showMessageDialog(null, "incorrect! The answer is 19!");
+}
 		// 2. Make a pop up to show the score.
 		JOptionPane.showMessageDialog(null, score);
 			
